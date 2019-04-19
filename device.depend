@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1555504076 source:/home/djy/device/device.cpp
+	"setport.h"
+	"modbus.h"
+	<fcntl.h>
+
+1555502578 /home/djy/device/setport.h
+	<stdio.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<termios.h>
+
+1555495675 /home/djy/device/modbus.h
+	"GetProfile.h"
+
+1555506798 /home/djy/device/GetProfile.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<ctype.h>
+	<errno.h>
+	<unistd.h>
+	<arpa/inet.h>
+
+1555503561 source:/home/djy/device/GetProfile.cpp
+	"GetProfile.h"
+
+1555503569 source:/home/djy/device/modbus.cpp
+	"modbus.h"
+
+1555495671 source:/home/djy/device/setport.cpp
+	"setport.h"
+
